@@ -83,7 +83,7 @@ wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64
 wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer32.exe -O /home/kali/tools/PrintSpoofer32.exe
 wget https://gist.githubusercontent.com/touilleMan/eb02ea40b93e52604938/raw/b5b9858a7210694c8a66ca78cfed0b9f6f8b0ce3/SimpleHTTPServerWithUpload.py -O /home/kali/tools/SimpleHTTPServerWithUpload.py
 wget https://raw.githubusercontent.com/radspyder/system_setup/main/ftppass.txt -O /home/kali/tools/ftppass.txt
-wget https://raw.githubusercontent.com/radspyder/system_setup/main/ftpusers.txt -O /home/kali/tools/ftpusers.txt
+wget https://raw.githubusercontent.com/radspyder/system_setup/main/ftpuser.txt -O /home/kali/tools/ftpuser.txt
 
 
 
