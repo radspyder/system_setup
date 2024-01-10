@@ -109,5 +109,8 @@ gunzip chisel_1.7.7_windows_386.gz
 mv /home/kali/tools/chisel_1.7.7_windows_386 /home/kali/tools/chiselwin32.exe
 gunzip chisel_1.7.7_windows_amd64.gz
 mv /home/kali/tools/chisel_1.7.7_windows_amd64 /home/kali/tools/chiselwin64.exe
+echo "----->>>>> COPY BLOODHOUND BINARIES INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+cp /usr/lib/python3/dist-packages/cme/helpers/bloodhound.py /home/kali/tools/bloodhound.py
+
 
 
