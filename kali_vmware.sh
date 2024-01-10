@@ -85,6 +85,7 @@ wget https://gist.githubusercontent.com/touilleMan/eb02ea40b93e52604938/raw/b5b9
 wget https://raw.githubusercontent.com/radspyder/system_setup/main/ftppass.txt -O /home/kali/tools/ftppass.txt
 wget https://raw.githubusercontent.com/radspyder/system_setup/main/ftpuser.txt -O /home/kali/tools/ftpuser.txt
 wget https://raw.githubusercontent.com/ly4k/PwnKit/main/PwnKit -O /home/kali/tools/pwnkit
+wget https://raw.githubusercontent.com/61106960/adPEAS/main/adPEAS.ps1 -O /home/kali/tools/adpeas.ps1
 cp /usr/share/peass/winpeas/winPEASx64.exe /home/kali/tools/winpeasx64.exe
 cp /usr/share/peass/winpeas/winPEASx86.exe /home/kali/tools/winpeasx86.exe
 cp /usr/share/peass/linpeas/linpeas.sh /home/kali/tools/linpeas.sh
