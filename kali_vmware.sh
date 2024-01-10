@@ -58,6 +58,9 @@ sudo apt install -y djvulibre-bin
 echo "----->>>>> INSTALL Feroxbuster ----->>>>> apt install -y feroxbuster"
 sudo apt install -y feroxbuster
 
+echo "----->>>>> INSTALL Gobuster ----->>>>> apt install -y gobuster"
+sudo apt install -y gobuster
+
 echo "----->>>>> INSTALL apktool ----->>>>> apt install -y apktool"
 sudo apt install -y apktool
 
