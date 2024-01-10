@@ -47,6 +47,7 @@ sudo apt install -y ncat
 
 echo "----->>>>> INSTALL Bloodhound ----->>>>> apt install -y bloodhound"
 sudo apt install -y bloodhound
+sudo apt install bloodhound.py
 
 echo "----->>>>> INSTALL exiftool ----->>>>> apt install -y exiftool"
 sudo apt install -y exiftool
@@ -109,8 +110,10 @@ gunzip chisel_1.7.7_windows_386.gz
 mv /home/kali/tools/chisel_1.7.7_windows_386 /home/kali/tools/chiselwin32.exe
 gunzip chisel_1.7.7_windows_amd64.gz
 mv /home/kali/tools/chisel_1.7.7_windows_amd64 /home/kali/tools/chiselwin64.exe
-echo "----->>>>> COPY BLOODHOUND BINARIES INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
-cp /usr/lib/python3/dist-packages/cme/helpers/bloodhound.py /home/kali/tools/bloodhound.py
 
+echo "----------------------------------------------"
+echo "manual items to do...."
+echo "start neo4j and set password. sudo neo4j start > firefox http://localhost:7474/ > default neo4j:neo4j > set password to 4jneo
+echo "Add Wappalyzer to Firefox Browser... Settings (triple lines) > Add-ons and themes > search wappalyzer > click Wappalyzer -> Add"
 
 
