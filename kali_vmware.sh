@@ -95,6 +95,8 @@ echo "----->>>>> COPY LINPEAS AND WINPEAS INTO TOOLS DIRECTORY /home/kali/tools 
 cp /usr/share/peass/winpeas/winPEASx64.exe /home/kali/tools/winpeasx64.exe
 cp /usr/share/peass/winpeas/winPEASx86.exe /home/kali/tools/winpeasx86.exe
 cp /usr/share/peass/linpeas/linpeas.sh /home/kali/tools/linpeas.sh
+echo "----->>>>> COPY NC WINDOWS BINARY INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+cp /usr/share/windows-resources/binaries/nc.exe /home/kali/tools/nc.exe
 
 
 
