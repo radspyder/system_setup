@@ -41,7 +41,6 @@ sudo apt install -y sshuttle
 
 echo "----->>>>> INSTALL Chisel ----->>>>> apt install -y chisel"
 sudo apt install -y chisel
-##https://github.com/jpillora/chisel/releases/tag/v1.7.7
 
 echo "----->>>>> INSTALL NCAT ----->>>>> apt install -y ncat"
 sudo apt install -y ncat
@@ -97,7 +96,18 @@ cp /usr/share/peass/winpeas/winPEASx86.exe /home/kali/tools/winpeasx86.exe
 cp /usr/share/peass/linpeas/linpeas.sh /home/kali/tools/linpeas.sh
 echo "----->>>>> COPY NC WINDOWS BINARY INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 cp /usr/share/windows-resources/binaries/nc.exe /home/kali/tools/nc.exe
-
-
+echo "----->>>>> DOWNLOAD CHISEL BINARIES INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_linux_386.gz -O /home/kali/tools/chisel_1.7.7_linux_386.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_linux_amd64.gz -O /home/kali/tools/chisel_1.7.7_linux_amd64.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_windows_386.gz -O /home/kali/tools/chisel_1.7.7_windows_386.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_windows_amd64.gz -O /home/kali/tools/chisel_1.7.7_windows_amd64.gz
+gunzip chisel_1.7.7_linux_386.gz
+mv /home/kali/tools/chisel_1.7.7_linux_386 /home/kali/tools/chiselnix32
+gunzip chisel_1.7.7_linux_amd64.gz
+mv /home/kali/tools/chisel_1.7.7_linux_amd64 /home/kali/tools/chiselnix64
+gunzip chisel_1.7.7_windows_386.gz
+mv /home/kali/tools/chisel_1.7.7_windows_386 /home/kali/tools/chiselwin32.exe
+gunzip chisel_1.7.7_windows_amd64.gz
+mv /home/kali/tools/chisel_1.7.7_windows_amd64 /home/kali/tools/chiselwin64.exe
 
 
