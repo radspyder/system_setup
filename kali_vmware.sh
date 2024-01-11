@@ -11,6 +11,9 @@ sudo apt-get install -y seclists
 echo "----->>>>> INSTALL STEGSEEK ----->>>>> apt-get install -y stegseek"
 sudo apt-get install -y stegseek
 
+echo "----->>>>> INSTALL RLWRAP ----->>>>> apt-get install -y rlwrapk"
+sudo apt-get install -y rlwrap
+
 echo "----->>>>> UPDATE APT ----->>>>> apt update"
 sudo apt update
 
