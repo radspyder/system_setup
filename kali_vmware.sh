@@ -116,6 +116,9 @@ gunzip chisel_1.7.7_windows_386.gz
 mv /home/kali/tools/chisel_1.7.7_windows_386 /home/kali/tools/chiselwin32.exe
 gunzip chisel_1.7.7_windows_amd64.gz
 mv /home/kali/tools/chisel_1.7.7_windows_amd64 /home/kali/tools/chiselwin64.exe
+echo "----->>>>> DOWNLOAD FULLPOWERS INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+wget https://github.com/itm4n/FullPowers/releases/download/v0.1/FullPowers.exe -O /home/kali/tools/fullpowers.exe
+
 
 echo "----------------------------------------------"
 echo "manual items to do...."
