@@ -118,6 +118,9 @@ gunzip chisel_1.7.7_windows_amd64.gz
 mv /home/kali/tools/chisel_1.7.7_windows_amd64 /home/kali/tools/chiselwin64.exe
 echo "----->>>>> DOWNLOAD FULLPOWERS INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 wget https://github.com/itm4n/FullPowers/releases/download/v0.1/FullPowers.exe -O /home/kali/tools/fullpowers.exe
+echo "----->>>>> COPY SHARPHOUND PY AND EXE INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+cp /usr/lib/bloodhound/resources/app/Collectors/SharpHound.exe /home/kali/tools/sharphound.exe
+cp /usr/lib/bloodhound/resources/app/Collectors/SharpHound.ps1 /home/kali/tools/sharphound.ps1
 
 
 echo "----------------------------------------------"
