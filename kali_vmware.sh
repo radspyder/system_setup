@@ -129,6 +129,8 @@ wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_
 wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64 /home/kali/tools/kerbrute_linux_amd64
 wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_386.exe /home/kali/tools/kerbrute_windows_386.exe
 wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe /home/kali/tools/kerbrute_windows_amd64.exe
+echo "----->>>>> UNZIPPING ROCKYOU.TXT ----->>>>>"
+sudo gunzip /usr/share/wordlists/rockyou.txt.gz 
 
 echo "----------------------------------------------"
 echo "manual items to do...."
