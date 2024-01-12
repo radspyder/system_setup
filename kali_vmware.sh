@@ -89,7 +89,7 @@ echo "----->>>>> DOWNLOAD PRINTSPOOFER INTO TOOLS DIRECTORY /home/kali/tools ---
 wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe -O /home/kali/tools/printspoofer64.exe
 wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer32.exe -O /home/kali/tools/printspoofer32.exe
 echo "----->>>>> DOWNLOAD HTTP SERVER WITH UPLOAD INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
-wget https://gist.githubusercontent.com/touilleMan/eb02ea40b93e52604938/raw/b5b9858a7210694c8a66ca78cfed0b9f6f8b0ce3/SimpleHTTPServerWithUpload.py -O /home/kali/tools/simplehttpserverwithupload.py
+wget https://raw.githubusercontent.com/Tallguy297/SimpleHTTPServerWithUpload/master/SimpleHTTPServerWithUpload.py -O /home/kali/tools/simplehttpserverwithupload.py
 echo "----->>>>> DOWNLOAD FTP BRUTE FORCE WORDLISTS INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 wget https://raw.githubusercontent.com/radspyder/system_setup/main/ftppass.txt -O /home/kali/tools/ftppass.txt
 wget https://raw.githubusercontent.com/radspyder/system_setup/main/ftpuser.txt -O /home/kali/tools/ftpuser.txt
