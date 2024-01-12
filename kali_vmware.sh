@@ -121,7 +121,9 @@ wget https://github.com/itm4n/FullPowers/releases/download/v0.1/FullPowers.exe -
 echo "----->>>>> COPY SHARPHOUND PY AND EXE INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 cp /usr/lib/bloodhound/resources/app/Collectors/SharpHound.exe /home/kali/tools/sharphound.exe
 cp /usr/lib/bloodhound/resources/app/Collectors/SharpHound.ps1 /home/kali/tools/sharphound.ps1
-
+echo "----->>>>> COPY MIMIKATZ 64 AND 32 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+cp /usr/share/windows-resources/mimikatz/x64/mimikatz.exe /home/kali/tools/mimikatz64.exe
+cp /usr/share/windows-resources/mimikatz/Win32/mimikatz.exe /home/kali/tools/mimikatz32.exe
 
 echo "----------------------------------------------"
 echo "manual items to do...."
