@@ -131,6 +131,8 @@ wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_window
 wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe /home/kali/tools/kerbrute_windows_amd64.exe
 echo "----->>>>> DOWNLOADING GetUserSPNs.ps1 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 wget https://raw.githubusercontent.com/nidem/kerberoast/master/GetUserSPNs.ps1 /home/kali/tools/GetUserSPNs.ps1
+echo "----->>>>> COPY PowerView.ps1 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+cp /usr/share/windows-resources/powersploit/Recon/PowerView.ps1 /home/kali/tools/powerview.ps1
 echo "----->>>>> UNZIPPING ROCKYOU.TXT ----->>>>>"
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz 
 
