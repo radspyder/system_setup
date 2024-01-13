@@ -129,6 +129,8 @@ wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_
 wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64 /home/kali/tools/kerbrute_linux_amd64
 wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_386.exe /home/kali/tools/kerbrute_windows_386.exe
 wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe /home/kali/tools/kerbrute_windows_amd64.exe
+echo "----->>>>> DOWNLOADING GetUserSPNs.ps1 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+wget https://raw.githubusercontent.com/nidem/kerberoast/master/GetUserSPNs.ps1 /home/kali/tools/GetUserSPNs.ps1
 echo "----->>>>> UNZIPPING ROCKYOU.TXT ----->>>>>"
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz 
 
@@ -136,5 +138,5 @@ echo "----------------------------------------------"
 echo "manual items to do...."
 echo "start neo4j and set password. sudo neo4j start > firefox http://localhost:7474/ > default neo4j:neo4j > set password to 4jneo
 echo "Add Wappalyzer to Firefox Browser... Settings (triple lines) > Add-ons and themes > search wappalyzer > click Wappalyzer -> Add"
-
+echo "Add compiled Rubeus.exe binary to /home/kali/tools... Download .sln "
 
