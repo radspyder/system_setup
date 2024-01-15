@@ -48,6 +48,9 @@ sudo apt install -y chisel
 echo "----->>>>> INSTALL NCAT ----->>>>> apt install -y ncat"
 sudo apt install -y ncat
 
+echo "----->>>>> INSTALL KeePASS CLI ----->>>>> apt install -y kpcli"
+sudo apt install -y kpcli
+
 echo "----->>>>> INSTALL Bloodhound ----->>>>> apt install -y bloodhound"
 sudo apt install -y bloodhound
 sudo apt install bloodhound.py
