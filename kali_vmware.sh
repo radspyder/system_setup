@@ -136,6 +136,8 @@ echo "----->>>>> DOWNLOADING GetUserSPNs.ps1 INTO TOOLS DIRECTORY /home/kali/too
 wget https://raw.githubusercontent.com/nidem/kerberoast/master/GetUserSPNs.ps1 /home/kali/tools/GetUserSPNs.ps1
 echo "----->>>>> COPY PowerView.ps1 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 cp /usr/share/windows-resources/powersploit/Recon/PowerView.ps1 /home/kali/tools/powerview.ps1
+echo "----->>>>> DOWNLOAD GODPOTATO-NET4.EXE INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe /home/kali/tools/godpotato-net4.exe
 echo "----->>>>> UNZIPPING ROCKYOU.TXT ----->>>>>"
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz 
 
