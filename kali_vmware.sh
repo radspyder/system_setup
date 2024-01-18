@@ -140,6 +140,8 @@ echo "----->>>>> DOWNLOAD GODPOTATO-NET4.EXE INTO TOOLS DIRECTORY /home/kali/too
 wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe /home/kali/tools/godpotato-net4.exe
 echo "----->>>>> COPY POWERCAT.PS1 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 cp /usr/share/powershell-empire/empire/server/data/module_source/management/powercat.ps1 /home/kali/tools/powercat.ps1
+echo "----->>>>> COPY WSGIDAV WebDAV INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+cp /home/kali/.local/bin/wsgidav /home/kali/tools/wsgidav
 echo "----->>>>> UNZIPPING ROCKYOU.TXT ----->>>>>"
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz 
 
