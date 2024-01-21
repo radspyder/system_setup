@@ -142,6 +142,8 @@ echo "----->>>>> COPY POWERCAT.PS1 INTO TOOLS DIRECTORY /home/kali/tools ----->>
 cp /usr/share/powershell-empire/empire/server/data/module_source/management/powercat.ps1 /home/kali/tools/powercat.ps1
 echo "----->>>>> COPY WSGIDAV WebDAV INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 cp /home/kali/.local/bin/wsgidav /home/kali/tools/wsgidav
+echo "----->>>>> DOWNLOADING GIT DUMPER INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+wget https://raw.githubusercontent.com/arthaud/git-dumper/master/git_dumper.py /home/kali/tools/git_dumper.py
 echo "----->>>>> DOWNLOAD PSPY INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64 /home/kali/tools/pspy64
 
