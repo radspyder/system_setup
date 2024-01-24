@@ -26,6 +26,10 @@ sudo apt install -y smtp-user-enum
 echo "----->>>>> INSTALL EXPLOIT DB ----->>>>> apt install -y exploitdb"
 sudo apt install -y exploitdb
 
+echo "----->>>>> INSTALL SNMP MIBS AND UPDATE /ETC/SNMP/SNMP.CONF ----->>>>> apt install -y exploitdb"
+sudo apt install -y snmp-mibs-downloader
+sudo sed -i 's/mibs/\#mibs/g' /etc/snmp/snmp.conf 
+
 echo "----->>>>> INSTALL mingw-w64 ----->>>>> apt install -y mingw-w64"
 sudo apt install -y mingw-w64
 
