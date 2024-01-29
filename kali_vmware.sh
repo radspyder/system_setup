@@ -146,6 +146,8 @@ echo "----->>>>> COPY POWERCAT.PS1 INTO TOOLS DIRECTORY /home/kali/tools ----->>
 cp /usr/share/powershell-empire/empire/server/data/module_source/management/powercat.ps1 /home/kali/tools/powercat.ps1
 echo "----->>>>> COPY WSGIDAV WebDAV INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 cp /home/kali/.local/bin/wsgidav /home/kali/tools/wsgidav
+echo "----->>>>> DOWNLOADING Invoke-RunasCs.ps1 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+wget https://github.com/antonioCoco/RunasCs/blob/master/Invoke-RunasCs.ps1 /home/kali/tools/Invoke-RunasCs.ps1
 echo "----->>>>> DOWNLOADING GIT DUMPER INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 wget https://raw.githubusercontent.com/arthaud/git-dumper/master/git_dumper.py /home/kali/tools/git_dumper.py
 echo "----->>>>> DOWNLOAD PSPY INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
