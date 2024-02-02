@@ -132,26 +132,30 @@ echo "----->>>>> COPY MIMIKATZ 64 AND 32 INTO TOOLS DIRECTORY /home/kali/tools -
 cp /usr/share/windows-resources/mimikatz/x64/mimikatz.exe /home/kali/tools/mimikatz64.exe
 cp /usr/share/windows-resources/mimikatz/Win32/mimikatz.exe /home/kali/tools/mimikatz32.exe
 echo "----->>>>> DOWNLOADING KERBRUTE LINUX AND WINDOWS BINARIES INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
-wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_386 /home/kali/tools/kerbrute_linux_386
-wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64 /home/kali/tools/kerbrute_linux_amd64
-wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_386.exe /home/kali/tools/kerbrute_windows_386.exe
-wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe /home/kali/tools/kerbrute_windows_amd64.exe
+wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_386 -O /home/kali/tools/kerbrute_linux_386
+wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64 -O /home/kali/tools/kerbrute_linux_amd64
+wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_386.exe -O /home/kali/tools/kerbrute_windows_386.exe
+wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe -O /home/kali/tools/kerbrute_windows_amd64.exe
 echo "----->>>>> DOWNLOADING GetUserSPNs.ps1 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
-wget https://raw.githubusercontent.com/nidem/kerberoast/master/GetUserSPNs.ps1 /home/kali/tools/GetUserSPNs.ps1
+wget https://raw.githubusercontent.com/nidem/kerberoast/master/GetUserSPNs.ps1 -O /home/kali/tools/GetUserSPNs.ps1
 echo "----->>>>> COPY PowerView.ps1 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 cp /usr/share/windows-resources/powersploit/Recon/PowerView.ps1 /home/kali/tools/powerview.ps1
 echo "----->>>>> DOWNLOAD GODPOTATO-NET4.EXE INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
-wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe /home/kali/tools/godpotato-net4.exe
+wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe -O /home/kali/tools/godpotato-net4.exe
 echo "----->>>>> COPY POWERCAT.PS1 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 cp /usr/share/powershell-empire/empire/server/data/module_source/management/powercat.ps1 /home/kali/tools/powercat.ps1
 echo "----->>>>> COPY WSGIDAV WebDAV INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 cp /home/kali/.local/bin/wsgidav /home/kali/tools/wsgidav
 echo "----->>>>> DOWNLOADING Invoke-RunasCs.ps1 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
-wget https://raw.githubusercontent.com/antonioCoco/RunasCs/master/Invoke-RunasCs.ps1 /home/kali/tools/Invoke-RunasCs.ps1
+wget https://raw.githubusercontent.com/antonioCoco/RunasCs/master/Invoke-RunasCs.ps1 -O /home/kali/tools/Invoke-RunasCs.ps1
 echo "----->>>>> DOWNLOADING GIT DUMPER INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
-wget https://raw.githubusercontent.com/arthaud/git-dumper/master/git_dumper.py /home/kali/tools/git_dumper.py
+wget https://raw.githubusercontent.com/arthaud/git-dumper/master/git_dumper.py -O /home/kali/tools/git_dumper.py
 echo "----->>>>> DOWNLOAD PSPY INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
-wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64 /home/kali/tools/pspy64
+wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64 -O /home/kali/tools/pspy64
+echo "----->>>>> DOWNLOAD accesscheck.exe INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+wget https://download.sysinternals.com/files/AccessChk.zip -O /tmp/AccessChk.zip
+unzip /tmp/AccessChk.zip -d /tmp
+mv /tmp/accesschk.exe /home/kali/tools/accesschk.exe
 
 echo "----->>>>> UNZIPPING ROCKYOU.TXT ----->>>>>"
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz 
