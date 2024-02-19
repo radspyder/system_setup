@@ -14,6 +14,9 @@ sudo apt-get install -y stegseek
 echo "----->>>>> INSTALL RLWRAP ----->>>>> apt-get install -y rlwrapk"
 sudo apt-get install -y rlwrap
 
+echo "----->>>>> INSTALL LIBREOFFICE ----->>>>> apt-get install -y libreoffice"
+sudo apt-get install -y libreoffice
+
 echo "----->>>>> UPDATE APT ----->>>>> apt update"
 sudo apt update
 
