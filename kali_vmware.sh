@@ -155,6 +155,8 @@ echo "----->>>>> DOWNLOADING Invoke-RunasCs.ps1 INTO TOOLS DIRECTORY /home/kali/
 wget https://raw.githubusercontent.com/antonioCoco/RunasCs/master/Invoke-RunasCs.ps1 -O /home/kali/tools/Invoke-RunasCs.ps1
 echo "----->>>>> DOWNLOADING GIT DUMPER INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 wget https://raw.githubusercontent.com/arthaud/git-dumper/master/git_dumper.py -O /home/kali/tools/git_dumper.py
+echo "----->>>>> DOWNLOADING SEATBELT INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/Seatbelt.exe -O /home/kali/tools/Seatbelt.exe
 echo "----->>>>> DOWNLOAD PSPY INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64 -O /home/kali/tools/pspy64
 echo "----->>>>> DOWNLOAD accesscheck.exe INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
