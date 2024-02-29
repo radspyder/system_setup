@@ -159,6 +159,8 @@ echo "----->>>>> DOWNLOADING SEATBELT INTO TOOLS DIRECTORY /home/kali/tools ----
 wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/Seatbelt.exe -O /home/kali/tools/Seatbelt.exe
 echo "----->>>>> DOWNLOAD PSPY INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64 -O /home/kali/tools/pspy64
+echo "----->>>>> COPY POWERUP.PS1 INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+cp /usr/share/windows-resources/powersploit/Privesc/PowerUp.ps1 /home/kali/tools/PowerUp.ps1
 echo "----->>>>> DOWNLOAD accesscheck.exe INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 wget https://download.sysinternals.com/files/AccessChk.zip -O /tmp/AccessChk.zip
 unzip /tmp/AccessChk.zip -d /tmp
