@@ -113,6 +113,8 @@ cp /usr/share/peass/winpeas/winPEASx86.exe /home/kali/tools/winpeasx86.exe
 cp /usr/share/peass/linpeas/linpeas.sh /home/kali/tools/linpeas.sh
 echo "----->>>>> COPY NC WINDOWS BINARY INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 cp /usr/share/windows-resources/binaries/nc.exe /home/kali/tools/nc.exe
+echo "----->>>>> COPY UNIX-PRIVESC-CHECK INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
+cp /usr/bin/unix-privesc-check /home/kali/tools/unix-privesc-check
 echo "----->>>>> DOWNLOAD CHISEL BINARIES INTO TOOLS DIRECTORY /home/kali/tools ----->>>>>"
 wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_linux_386.gz -O /home/kali/tools/chisel_1.7.7_linux_386.gz
 wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_linux_amd64.gz -O /home/kali/tools/chisel_1.7.7_linux_amd64.gz
